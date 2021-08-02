@@ -6,7 +6,7 @@ module.exports = {
         headers: [
           {
             key: 'Access-Control-Allow-Origin',
-            value: '*',
+            value: VERCEL_URL,
           },
         ],
       },
